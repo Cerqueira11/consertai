@@ -55,42 +55,4 @@ Ao contrário de plataformas tradicionais baseadas em compra de contatos (leads)
 * Registro automático de eventos no navegador (`localStorage`).
 * Aba de Ajustes com botão para **"Baixar Relatório de Evidências (CSV)"** para anexação em relatórios e entregas do Classroom.
 
----
 
-## 🗂️ Estrutura do Repositório
-
-O projeto foi estruturado seguindo as boas práticas da arquitetura web modular sem necessidade de build complexo, rodando nativamente no navegador e no GitHub Pages:
-
-```
-consertai/
-├── index.html                   # Estrutura HTML limpa e links principais
-├── index.standalone.html        # Versão monolítica em arquivo único (backup/offline)
-├── css/
-│   └── style.css                # Folha de estilos, variáveis de tema, layouts e Leaflet
-├── js/
-│   ├── data.js                  # Catálogo de prestadores (P0), fotos, portfólio, categorias e config
-│   └── app.js                   # Lógica da aplicação, mapa Leaflet, busca, pedidos e agendamento
-└── README.md                    # Documentação do projeto
-```
-
----
-
-## 🚀 Como Executar o Projeto
-
-### Opção 1: Acesso Online direto (GitHub Pages)
-Acesse diretamente pelo navegador no link:  
-👉 **[https://cerqueira11.github.io/consertai/](https://cerqueira11.github.io/consertai/)**
-
-### Opção 2: Execução Local
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/Cerqueira11/consertai.git
-   ```
-2. Abra a pasta do projeto e dê dois cliques no arquivo `index.html` (funciona em qualquer navegador moderno: Chrome, Edge, Safari, Firefox).
-3. Não requer `npm install`, nem servidor backend rodando.
-
----
-
-## 🎓 Contexto Acadêmico (USP SI)
-
-Este MVP foi concebido e iterado como parte das entregas avaliativas da disciplina **Resolução de Problemas II (RP II)** no curso de **Sistemas de Informação da USP**, aplicando metodologias ativas de Design Thinking, desenvolvimento enxuto (*Lean Startup*) e testes empíricos com usuários reais moradores de São Paulo.
