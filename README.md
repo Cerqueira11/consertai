@@ -70,9 +70,6 @@ consertai/
 ├── js/
 │   ├── data.js                  # Catálogo de prestadores (P0), fotos, portfólio, categorias e config
 │   └── app.js                   # Lógica da aplicação, mapa Leaflet, busca, pedidos e agendamento
-├── docs/
-│   ├── CONTEXTO_CONSERTAI_MVP.md                    # Dossiê de validações, hipóteses e personas
-│   └── ROTEIRO_E_TRANSCRICAO_TESTES_5_USUARIOS.md   # Roteiro de testes com 5 usuários reais e fichas
 └── README.md                    # Documentação do projeto
 ```
 
