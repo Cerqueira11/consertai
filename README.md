@@ -1,4 +1,4 @@
-# Consertaí — A confiança que a sua casa precisa 🛠️🛡️
+# Consertaí — A confiança que a sua casa precisa
 
 > **Projeto Acadêmico — Universidade de São Paulo (USP)**  
 > **Bacharelado em Sistemas de Informação**  
